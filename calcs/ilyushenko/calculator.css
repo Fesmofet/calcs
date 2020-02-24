@@ -1,0 +1,54 @@
+table {
+    width: 600px;
+    height: 500px;
+    background: black;
+}
+TD, TH {
+    width: 500px;
+}
+TH {
+    color: #24b98f;
+}
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+/*input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+*/
+.input{
+    width: 99%;
+    height: 100%;
+    background: #0a0a0a;
+    color: #fbf7f7;
+    font: bold 45px Arial;
+
+}
+.arithmetic-operations{
+    background: #1c4c4b;
+}
+
+.btn{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font: bold 20px Arial;
+}
+.btn:focus{
+    outline: none;
+}
+.btn:hover{
+    cursor: pointer;
+    color: white;
+    border-radius: 40px;
+    box-shadow: 0 0 10px white;
+}
+.color{
+    background: #bb8ab6;
+}
+.col{
+    background: #2873ca;
+}

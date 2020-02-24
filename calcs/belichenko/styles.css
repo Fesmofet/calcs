@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .wrapper {
+    border: 1px solid black;
+}
+.main .wrapper .wrapper__result {
+    border: 1px solid black;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: right;
+}
+.main .wrapper .numbers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.main .wrapper .numbers .numbers__button,
+.main .wrapper .numbers .numbers__resert,
+.main .wrapper .numbers .numbers__back {
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+    height: 30px;
+}
+.main .wrapper .operations {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+}
+.main .wrapper .operations .operations__button {
+    text-align: center;
+    height: 30px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

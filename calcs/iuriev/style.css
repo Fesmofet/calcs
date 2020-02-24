@@ -1,0 +1,32 @@
+.wrapper{
+	border:1px solid gray;
+	margin:0;
+	padding:20px;
+	width:250px;
+	text-align:center;
+}
+
+#editWide{
+	font-size: 1.6em;
+	width: 210px;
+}
+
+.buttonsLine{
+	padding: 5px;
+	display: flex;
+	align-items: center;
+}
+
+.btnBig{
+	background: green;
+	width: 100px;
+	height: 40px;
+	margin: 10px;
+}
+
+.btnStandart{
+	background: yellow;
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+}
