@@ -1,0 +1,228 @@
+body{
+    background-color: rgb(202, 245, 248);
+}
+.calc_body{
+    display: block;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        /* margin-top: auto; */
+        /* margin-right: -20%; */
+        transform: translate(-50%, -50%);
+    height: 310px;
+    width: 310px;
+    border: 1.4px solid #000000;
+}
+.pole_vvoda_vuvoda{
+    /* border:1px solid black;  */
+position: absolute;
+top: 1em;
+margin-top: -10px;
+margin-left: 7px;
+}
+
+ .result{
+    /* border:1.3px solid black; */
+    position: absolute;
+    display: block;
+        /* top: 10%;
+        left: 2.5%; */
+        margin: 0;
+        margin-left: 270px;
+        margin-top: -4px;
+        width: 30px;
+        height: 40px;
+        font-size: 40px;
+        /* padding-left: 1px;  */
+        font-family: monospace;
+}
+.ramkaPole{
+    position: absolute;
+    display: block;
+    width: 296px;
+    height: 40px;
+    border: 1.2px solid black;
+    background-color: white;
+    font-size: 40px;
+    font-family: monospace;
+}
+
+.arhiv{
+    position: absolute;
+    display: block;
+    margin-top: 45px;
+    margin-left: 5px;
+    color: rgb(67, 50, 221);
+    font-size: 16px;
+    width: 200px;
+    height: 20px;
+}
+button {
+    position: absolute;
+       
+}
+button:hover {
+ border: 1px solid black;
+}
+.calc_body .Key0{
+    position: absolute;
+    display: block;
+    width: 110px;
+    height: 50px;
+     margin-top: 250px;
+    margin-left: 10px;  
+}
+.calc_body .ravno{
+    position: absolute;
+    display: block;
+    width: 110px;
+    height: 50px;
+     margin-top: 250px;
+    margin-left: 190px;  
+}
+.calc_body .Key1{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+     margin-top: 190px;
+    margin-left: 10px;  
+}
+.calc_body .Key2{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+     margin-top: 190px;
+    margin-left: 70px;  
+}
+.calc_body .Key3{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+     margin-top: 190px;
+    margin-left: 130px;  
+}
+.calc_body .Key4{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+     margin-top: 130px;
+    margin-left: 10px;  
+}
+.calc_body .Key5{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+     margin-top: 130px;
+    margin-left: 70px;  
+}
+.calc_body .Key6{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+     margin-top: 130px;
+    margin-left: 130px;  
+}
+.calc_body .Key7{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+     margin-top: 70px;
+    margin-left: 10px;  
+}
+.calc_body .Key8{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+     margin-top: 70px;
+    margin-left: 70px;  
+}
+.calc_body .Key9{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+     margin-top: 70px;
+    margin-left: 130px;  
+}
+.calc_body .point{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+     margin-top: 250px;
+    margin-left: 130px; 
+    font-size: 25px; 
+}
+.calc_body .c{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+     margin-top: 70px;
+    margin-left: 190px;  
+}
+.calc_body .bs{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+     margin-top: 70px;
+    margin-left: 250px;  
+}
+.calc_body .del{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+     margin-top: 190px;
+    margin-left: 250px;  
+}
+.calc_body .ss{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+     margin-top: 130px;
+    margin-left: 250px;  
+    font-size: 16px;
+}
+.calc_body .re{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+     margin-top: 190px;
+    margin-left: 190px; 
+    font-size: 18px; 
+}
+.calc_body .sum{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+     margin-top: 130px;
+    margin-left: 190px;  
+}
+.name:hover{
+    position: absolute;
+    display: block;
+    margin-top: 488px;
+    margin-left: 496px;
+color: blueviolet;
+}
+.name{
+    position: absolute;
+    display: block;
+     margin-top: 488px;
+    margin-left: 496px;
+    color:  rgb(202, 245, 248);
+
+    }
