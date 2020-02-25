@@ -17,4 +17,6 @@ li {
 a {
     text-decoration: none;
 }
-
+.no-calc {
+    color: red;
+}
