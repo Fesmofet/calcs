@@ -1,0 +1,131 @@
+.wrapper {
+    text-align: center;
+    align-items: center;
+    width: 400px;
+    justify-content: center;
+    margin:0 auto;
+}
+.settings_button{
+    width: 30px;
+    text-align: right;
+    margin-left: auto;
+    height: 30px;
+    padding-bottom: 15px;
+}
+.settings_button_arabic{
+    width: 30px;
+    text-align: right;
+    margin-right: auto;
+    height: 30px;
+    padding-bottom: 15px;
+}
+.rtl{
+    direction: rtl;
+}
+
+.ltr{
+    direction: ltr;
+}
+
+.block_input_wrapper{
+    display: flex;
+}
+.block_input {
+    width: 50%;
+    background: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.inputext {
+    height: 30px;
+    width: 98%;
+    font: bold 150% serif;
+    margin-bottom: 10px;
+}
+#btnSettings{
+    background-image: url('../images/setting-button.png');
+    background-size: cover;
+    background-size: 27px 27px;
+    padding: 0  0;
+}
+.but {
+    margin-top: 10px;
+    width: calc(100%);
+    font: bold 150% serif;
+}
+.modal_select{
+    width: calc(80% );
+    margin-bottom: 20px;
+}
+.selectType {
+    font: bold 150% serif;
+    width: calc(100% );
+    height: 35px;
+
+}
+.modal_button{
+    width: 70%;
+ }
+.modal_close_button{
+    background-image: url("../images/close.png");
+    background-size: 15px 15px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0;  top: 0;
+}
+
+.modal_close_button_arabic{
+    background-image: url("../images/close.png");
+    background-size: 17px 17px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;  top: 0;
+}
+.blur-bg {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+.bbutton{
+    clear: both;
+}
+.rtl-text {
+    direction: rtl;
+}
+.ltr-text {
+    direction: ltr;
+}
+.hide {
+     display: none;
+ }
+.dis{
+    pointer-events: none;
+    opacity: 0.4;
+}
+.show {
+    background: rgba(10, 6, 37, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline;
+}
+#modalWindow {
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #fff;
+}
