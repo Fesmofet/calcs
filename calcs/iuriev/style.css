@@ -1,32 +1,22 @@
-.wrapper{
-	border:1px solid gray;
-	margin:0;
-	padding:20px;
-	width:250px;
-	text-align:center;
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
 }
 
-#editWide{
-	font-size: 1.6em;
-	width: 210px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
 }
-
-.buttonsLine{
-	padding: 5px;
-	display: flex;
-	align-items: center;
+li {
+    padding: .5rem;
 }
-
-.btnBig{
-	background: green;
-	width: 100px;
-	height: 40px;
-	margin: 10px;
+a {
+    text-decoration: none;
 }
-
-.btnStandart{
-	background: yellow;
-	width: 40px;
-	height: 40px;
-	margin: 10px;
+.no-calc {
+    color: red;
 }
