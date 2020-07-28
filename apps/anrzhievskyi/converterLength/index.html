@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Converter</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="wrapper" class="wrapper">
+    <div id="dlgSettings" class="hide">
+        <div id="modalWindow">
+            <p id=lblSettings></p>
+            <select class="modal_select" id="languageList">
+                <option id="RU" value="RU">RU</option>
+                <option id="EN" value="EN">EN</option>
+                <option id="AR" value="AR">AR</option>
+            </select>
+            <button class="modal_button" id="btnSaveSettings"></button>
+            <button class="modal_close_button" id="btnCloseSettingsWindow"></button>
+        </div>
+    </div>
+
+    <div id="content">
+
+        <div id="block_input_wrapper" class="block_input_wrapper">
+            <div class="block_input">
+                <label id="inputNumberLabel" for="inputNumber"></label>
+                <input id="inputNumber" class="inputext" type="text" maxlength="13">
+                <select class="selectType" id="covertFrom"></select>
+            </div>
+            <div class="block_input">
+                <label id="inputResultLabel" for="inputResult"></label>
+                <input id="inputResult" class="inputext" type="text" maxlength="13">
+                <select class="selectType" id="covertTo"></select>
+            </div>
+            <div id="settingsPanel" class="settings_button">
+                <input id="btnSettings" class="set_but" type="button">
+            </div>
+        </div>
+        <div class="block_button">
+            <input id="btnConvert" class="but" type="button">
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="index.js"></script></body>
+</html>
