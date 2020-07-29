@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="style/style.css">
+<link href="index.css" rel="stylesheet"></head>
+<body>
+<div class="wrapper">
+  <div class="wrapper-bg"></div>
+  <div class="calculator">
+    <div class="calculator-display">
+      <input readonly type="text" id="displayPre" class="calculator-display__preVue">
+      <input readonly type="text" id="display" class="calculator-display__item">
+    </div>
+
+    <div class="button-wrapper">
+      <div class="button-column button-column--short">
+        <div class="button-column__item">
+          <button id="clearAllValue" type="button" class="btn btn--equal">&#8705;</button>
+        </div>
+        <div class="button-column__item">
+          <button id="btn7" type="button" class="btn btn--number">7</button>
+        </div>
+        <div class="button-column__item">
+          <button id="btn4" type="button" class="btn btn--number">4</button>
+        </div>
+        <div class="button-column__item">
+          <button id="btn1" type="button" class="btn btn--number">1</button>
+        </div>
+        <div class="button-column__item button-column__item--zero">
+          <button id="btn0" type="button" class="btn btn--zero btn--number">0</button>
+        </div>
+      </div>
+      <div class="button-column button-column--short--center">
+        <div class="button-column__item button-column__item--backspace">
+          <button id="backspace" type="button" class="btn btn--equal ">&#8592;</button>
+        </div>
+        <div class="button-column__item">
+          <button id="btn8" type="button" class="btn btn--number">8</button>
+        </div>
+        <div class="button-column__item">
+          <button id="btn5" type="button" class="btn btn--number">5</button>
+        </div>
+        <div class="button-column__item">
+          <button id="btn2" type="button" class="btn btn--number">2</button>
+        </div>
+      </div>
+      <div class="button-column button-column--short--end">
+        <div class="button-column__item">
+          <button id="btn9" type="button" class="btn btn--number">9</button>
+        </div>
+        <div class="button-column__item">
+          <button id="btn6" type="button" class="btn btn--number">6</button>
+        </div>
+        <div class="button-column__item">
+          <button id="btn3" type="button" class="btn btn--number">3</button>
+        </div>
+        <div class="button-column__item">
+          <button id="btnComa" class="btn btn--number">.</button>
+        </div>
+      </div>
+      <div class="button-column">
+        <div class="button-column__item">
+          <button id="btnDivide" type="button" value="/" class="btn btn--operator">&#247;</button>
+        </div>
+        <div class="button-column__item">
+          <button id="btnMultiply" type="button" value="*" class="btn btn--operator">&#215;</button>
+        </div>
+        <div class="button-column__item">
+          <button id="btnMinus" type="button" value="-" class="btn btn--operator">&#8722;</button>
+        </div>
+        <div class="button-column__item">
+          <button id="btnPlus" type="button" value="+" class="btn btn--operator">&#43;</button>
+        </div>
+        <div class="button-column__item">
+          <button id="btnEqually" type="button" class="btn btn--equal">&#61;</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="index.js"></script></body>
+<script src="script/index.js"></script>
+</html>
