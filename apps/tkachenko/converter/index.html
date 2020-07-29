@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <title class="title" id="titleLabel"></title>
+  <link rel="stylesheet" href="./style.css">
+  <script defer src='./main.js'></script>
+</head>
+
+<body>
+<div class="wrapper" id="wrapper" >
+  <h1 class="header" id="headerLabel"></h1>
+
+  <div class="container">
+    <div class="print-form">
+      <label for="input" class="print-form__header" id="printLabel"></label>
+      <p class="print-form__message" id="message"></p>
+      <input class="print-form__input print-form__input_input" id="input">
+      <div class="select-form">
+        <select class="select-form__from" id="selectElementFrom">
+          <option value="meter"></option>
+          <option value="verst"></option>
+          <option value="mile"></option>
+          <option value="foot"></option>
+          <option value="yard"></option>
+        </select>
+      </div>
+    </div>
+
+    <div class="print-form">
+
+      <button id="convertButton"></button>
+
+    </div>
+
+    <div class="print-form">
+      <p class="print-form__header" id="resultLabel"></p>
+      <input type="text" class="print-form__input print-form__input_output" id="output" disabled="true">
+      <div class="select-form">
+        <select class="select-form__to" id="selectElementTo">
+          <option value="meter" ></option>
+          <option value="verst"></option>
+          <option value="mile"></option>
+          <option value="foot"></option>
+          <option value="yard"></option>
+        </select>
+      </div>
+    </div>
+
+    <div class="print-form print-form-settings">
+      <button id="settingsButton" class="btn__settings"><img src="./img/settings_icon.svg"
+          class="icon-svg"></button>
+    </div>
+  </div>
+</div>
+      <div class="modal" id="modal">
+        <div class="modal__closer"><button class="btn__settings" id="modalCloser"><img src="./img/close.svg" class="icon-svg"></button></div>
+        <div class="modal__settings settings">
+          <div class="settings__header"><h2 id="settingsLabel">Settings</h2></div>
+        <div class="settings__select-language">
+          <img src="./img/global.svg" class="icon-svg">
+          <select class="select-language__selector" id="selectElementLanguage">
+            <option value="eng">English</option>
+            <option value="rus">Russian</option>
+            <option value="ar">Arab</option>
+          </select>
+        </div>
+        </div>
+      </div>
+
+
+
+  <!-- <div id="mocha">
+        <script>
+            mocha.run();
+        </script>
+    </div> -->
+
+  
+  <!-- <script src="../src/tests/tests.js"></script> -->
+</body>
+
+</html>

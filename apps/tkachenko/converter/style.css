@@ -1,0 +1,87 @@
+.header {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 800px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* direction: rtl; */
+}
+
+.print-form {
+  width: 33.3%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.print-form__header{
+  margin-top: 0;
+}
+.print-form-settings{
+  width: 0%;
+  margin-top: 0;
+  margin-bottom: auto;
+}
+
+.select-form{
+  margin-top: 20px;
+  margin-bottom: auto;
+}
+
+.btn__settings{
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+  outline: none;
+
+}
+
+.icon-svg{
+  width:18px;
+  height: 18px;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 20%;
+  z-index: 1;
+  background-color: rgb(245,245,245);
+}
+.settings{
+  display: flex;
+  flex-direction:column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: space-around;
+}
+.modal__closer{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.select-form__to option:checked {
+  display: none;
+}
+
+.select-form__from option:checked {
+  display: none;
+}
+
+/* .output option:checked {
+  display: none;
+} */
