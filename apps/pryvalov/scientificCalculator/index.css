@@ -1,0 +1,82 @@
+body {
+    background-image: linear-gradient(to top, #10aeca, #0086b0, #006091, #003b6d, #0d1947);
+}
+
+.calculator {
+    width: 490px;
+    background-color: #10aeca;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input[type=text] {
+    width: 315px;
+    height: 45px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #000;
+    color: #00BDFF;
+    padding: 0 5px 0 5px;
+    margin: 0 0px 10px 84px;
+    font-size: 24px;
+}
+
+.calc-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.button {
+    margin: 3px;
+    width: 63px;
+    border: none;
+    height: 45px;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: hsla(180, 100%, 40%, 0.3);
+    transition: .2s;
+}
+
+.functions-one {
+    width: 210px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.functions-two {
+    width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.triggers {
+    background-color: #EE710F;
+}
+
+.numbers {
+    background-color: #C05F78;
+}
+
+.basic-stuff {
+    background-color: #80d4ff;
+}
+
+.complex-stuff {
+    background-color: #4B4497;
+}
