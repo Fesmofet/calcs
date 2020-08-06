@@ -1,41 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Webpack Setup</title>
-    <link rel="stylesheet" href="./app.css">
+    <meta charset="UTF-8">
+    <title>Convector</title>
+    <script src="https://unpkg.com/lodash@4.16.6"></script>
+    <link href="src/style/index.css" rel="stylesheet">
 </head>
 <body>
-<h2>Length Converter</h2>
-<form name="lengthCon">
+<div class="wrapper">
 
-    <p class="Value">From</p>
-    <select class="movement" name=fromUnit onChange="convertUnit()">
-        <option> meters
-        <option> kilometers
-        <option> miles
-        <option> feet
-        <option> yards
-    </select>
+    <div class="icon left" id ="icon"><a href="#"><img id="wheel" src="src/style/img/gear.png"></a></div>
+    <div class="wrapper__h1"><h1>Convertor</h1></div>
+    <div class="cover-input">
+        <div class="inputs">
 
-    <p class="Options">To</p>
-    <p>
-        <select class="moves" name=toUnit onChange="convertUnit()">
-            <option> meters
-            <option> kilometers
-            <option> miles
-            <option> feet
-            <option> yards
+            <input type="number" id="value" placeholder="Write value to convert" pattern="\d [0-9]{10}"required >
+        </div>
+        <div class="inputs">
+            <input id="result" placeholder="Result" disabled>
+        </div>
+    </div>
+    <div class="select-cover">
+        <div class="selectors">
+                <select id="select">
+                    <option selected="selected" value="1">meters</option>
+                    <option value="2">verst</option>
+                    <option value="3">yard</option>
+                    <option value="4">miles</option>
+                    <option value="5">foot</option>
+                </select>
+        </div>
+        <div class="selectors">
+            <select id="select2">
+                <option selected="selected" value="1">meters</option>
+                <option value="2">verst</option>
+                <option value="3">yard</option>
+                <option value="4">miles</option>
+                <option value="5">foot</option>
+            </select>
+        </div>
+    </div>
+    <div class="convert-button-coverage">
+        <div class="div-button">
+            <button class="btn" id="generate"> Generate</button>
+        </div>
+    </div>
+
+</div>
+
+<div class="hidden-window hidden hiddenright" id="hidden">
+    <div class="settings-wrap">
+
+    <h2 id="h2">Settings</h2>
+       <!-- <a href="#"><img src="../src/style/img/icons8-close-window-50.png"></a> -->
+    </div>
+    <div class="select-wrap">
+        <p id = "p">Language</p>
+        <select id="lang">
+            <option selected="selected">EN</option>
+            <option >RU</option>
+            <option>AR</option>
         </select>
-    </p>
+    </div>
+    <div>
+        <button class="btn" id="apply">Apply</button>
+    </div>
+</div>
 
-    <p colspan="4"><div id="formula">meters = 1 meters</div></p>
-
-    <p class="Walk">Enter </p>
-    <p><input class="around" type="text" name="fromValue" value="1" size="5" maxlength="10"></p>
-    <p><input class="yah" type=button value="Convert" onClick="convertUnit()"></p>
-    <p><span id="toValue"> 1</span></p>
-</form>
-
-<script type="text/javascript" src="./index.js"></script></body>
+<script type="text/javascript" src="bundle.js"></script></body>
+<script src="../src/index.js"></script>
 </html>

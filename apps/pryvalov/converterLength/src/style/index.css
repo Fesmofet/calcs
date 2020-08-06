@@ -1,0 +1,133 @@
+input:focus {
+  background-color: lightblue;
+}
+input::placeholder {
+  color: pink;
+}
+.hidden {
+  display: none!important;
+}
+.right {
+  margin-right: 70%;
+}
+.left {
+  margin-left: 70%;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.hiddenright {
+  right: 20%;
+}
+.hiddenleft {
+  left: 20%;
+}
+.direction {
+  direction: rtl;
+}
+.wrapper {
+  height: 100vh;
+  position: relative;
+  background-image: linear-gradient(to bottom, #330758, #690063, #9b0064, #c9005d, #ef114d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper .icon {
+  width: 30px;
+  height: 30px;
+  margin-top: 1%;
+}
+.wrapper .icon a img {
+  width: 100%;
+}
+.wrapper__h1 {
+  color: pink;
+  opacity: 0.7;
+}
+.wrapper .cover-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 100px;
+}
+.wrapper .cover-input .inputs {
+  width: 50%;
+  padding-right: 15px;
+}
+.wrapper .cover-input .inputs input {
+  width: 100%;
+  padding: 7px 3px 7px 5px;
+  color: pink;
+  border-radius: 5px;
+  background: #0078c9;
+  opacity: 0.7;
+  border: 1px solid;
+}
+.wrapper .select-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 100px;
+}
+.wrapper .select-cover .selectors {
+  width: 50%;
+  padding-right: 5px;
+}
+.wrapper .select-cover .selectors select {
+  width: 100%;
+  padding: 7px 3px 7px 5px;
+  border-radius: 5px;
+  background: #0078c9;
+  opacity: 0.7;
+  border: 1px solid;
+  border: 6px solid transparent;
+  color: pink;
+}
+.convert-button-coverage .div-button button {
+  padding: 5px;
+  opacity: 0.8;
+  background-color: pink;
+  color: #000;
+  border: 2px solid #9835B9;
+  border-radius: 10px;
+  font-size: 15px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.convert-button-coverage .div-button button:hover {
+  background-color: #9835B9;
+  color: #fff;
+}
+.hidden-window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 25%;
+  background-image: linear-gradient(to right top, #60123e, #641c51, #632765, #5d347a, #50418e, #414f9c, #2c5da7, #006ab0, #0079b2, #0086ab, #0092a0, #1c9b93);
+  padding: 10px;
+  border-radius: 15px;
+  flex-direction: column;
+}
+.hidden-window .settings-wrap {
+  display: flex;
+}
+.hidden-window .settings-wrap a {
+  width: 30px;
+  height: 30px;
+}
+.hidden-window .settings-wrap a img {
+  width: 100%;
+}
+.hidden-window .select-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*# sourceMappingURL=index.css.map */
