@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Webpack Setup</title>
+    <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+<h2>Length Converter</h2>
+<form name="lengthCon">
+
+    <p class="Value">From</p>
+    <select class="movement" name=fromUnit onChange="convertUnit()">
+        <option> meters
+        <option> kilometers
+        <option> miles
+        <option> feet
+        <option> yards
+    </select>
+
+    <p class="Options">To</p>
+    <p>
+        <select class="moves" name=toUnit onChange="convertUnit()">
+            <option> meters
+            <option> kilometers
+            <option> miles
+            <option> feet
+            <option> yards
+        </select>
+    </p>
+
+    <p colspan="4"><div id="formula">meters = 1 meters</div></p>
+
+    <p class="Walk">Enter </p>
+    <p><input class="around" type="text" name="fromValue" value="1" size="5" maxlength="10"></p>
+    <p><input class="yah" type=button value="Convert" onClick="convertUnit()"></p>
+    <p><span id="toValue"> 1</span></p>
+</form>
+
+<script type="text/javascript" src="./index.js"></script></body>
+</html>
