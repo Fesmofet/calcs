@@ -1,57 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Сonverter</title>
-    <link href="style.css" rel="stylesheet">
+    <title id="titleLabel">Converter</title>
 </head>
 <body>
-
-<div class="wrapper">
-
-<!-- контейнер с значениями -->
-    <div class="container">
-        <input id="input" class="question" type="number" placeholder="
-        Enter the number of m or km">
-        <div class="answer">
-            <p>Result:
-                <input id="result"></input></p>
+<div class="wrapper-main">
+    <h1 id="h1Text">Converter</h1>
+    <div class="settings">
+        <div class="settings-modal">
+            <div class="select-language">
+                <h2 id="h2Text">Settings</h2>
+                <select name="language" id="selectLanguage">
+                    <option value="ru" id="russian" lang="ru">RU</option>
+                    <option value="eng" id="english" lang="en" selected="selected">EN</option>
+                    <option value="ar" id="arabian" lang="ar">AR</option>
+                </select>
+            </div>
+            <div>
+                <button id="btn-close-modal"></button>
+            </div>
         </div>
     </div>
-
-
-<!-- контейнер с переключателем -->
-    <div class="container">
-        <div class="toogle">
-            <p><b>m</b></p>
-            <label class="switch">
-                <input id="toogle" type="checkbox">
-                <span class="slider round"></span>
-            </label>
-            <p><b>km</b></p>
+    <div class="wrapper-input-box">
+        <div class="settings-button">
+            <button value="Setting" class="btn-settings"></button>
         </div>
-    </div>
+        <div class="input-box input-box__input input-box__input__position">
+            <div class="input-box__input">
+                <label for="inputDigits" id="labelInputDigits">Enter value</label>
+                <input class="input-box__input__padding" type="number" id="inputDigits">
+            </div>
 
-
-<!-- контейнер с выбором и кнопкой -->
-    <div class="container">
-        <div class="choice">
-            <select id="selectchoice">
-                <option value="verst">Verst</option>
-                <option value="mile">Mile</option>
-                <option value="foot">Foot</option>
-                 <option value="yard">Yard</option>
+            <div class="input-box__input">
+                <label for="inputResult" id="labelInputResult">Result</label>
+                <input class="input-box__input__padding input-box__input__disabled" type="text"
+                       id="inputResult">
+            </div>
+        </div>
+        <div class="toggle input-box__input__position input-box__input__padding">
+            <select name="option" id="selectFrom">
+                <option value="meter" selected="selected" class="selectFrom-meter">meter</option>
+                <option value="verst" class="selectFrom-verst">verst</option>
+                <option value="mile" class="selectFrom-mile">mile</option>
+                <option value="foot" class="selectFrom-foot">foot</option>
+                <option value="yard" class="selectFrom-yard">yard</option>
+            </select>
+            <select name="option" id="selectTo">
+                <option value="meter" class="selectTo-meter">meter</option>
+                <option value="verst" selected="selected" class="selectTo-verst">verst</option>
+                <option value="mile" class="selectTo-mile">mile</option>
+                <option value="foot" class="selectTo-foot">foot</option>
+                <option value="yard" class="selectTo-yard">yard</option>
             </select>
         </div>
-
-        <div class="accept">
-            <button type="submit" id="convert"><b>Convert</b></button>
+        <div class="convert-button input-box__input__position">
+            <button class="input-box__input__padding" id="convert">Convert</button>
         </div>
     </div>
 </div>
 
-</body>
-<script src="script.js"></script>
+<script type="text/javascript" src="index.e23c944f.js"></script></body>
 </html>
